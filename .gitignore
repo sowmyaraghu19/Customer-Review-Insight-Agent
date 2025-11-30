@@ -1,0 +1,60 @@
+# -----------------------
+# Python / Virtualenv
+# -----------------------
+.venv/
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.idea/
+.vscode/
+*.iml
+
+# -----------------------
+# OS files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# ChromaDB Vectorstore
+# -----------------------
+vectorstore/
+chroma/
+chroma_db/
+*.sqlite3
+*.bin
+*.pkl
+
+# -----------------------
+# Streamlit cache
+# -----------------------
+.streamlit/
+
+# -----------------------
+# Env variables
+# -----------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------
+# Uploaded datasets
+# -----------------------
+*.csv
+*.xlsx
+uploaded_data/
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+logs/

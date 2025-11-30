@@ -1,0 +1,14 @@
+openai>=1.30.0
+python-dotenv
+numpy
+pandas
+nltk
+scikit-learn
+sentence-transformers
+chromadb
+streamlit
+rouge-score
+matplotlib
+wordcloud
+reportlab
+
